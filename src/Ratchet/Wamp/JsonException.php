@@ -1,7 +1,7 @@
 <?php
 namespace Ratchet\Wamp;
 
-include_once '../../../vendor/autoload.php';
+include_once dirname(__DIR__, 3) . '/vendor/autoload.php';
 
 class JsonException extends Exception {
     public function __construct() {

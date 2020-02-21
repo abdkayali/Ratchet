@@ -1,7 +1,7 @@
 <?php
 namespace Ratchet\Session\Storage;
 
-include_once '../../../../vendor/autoload.php';
+include_once dirname(__DIR__, 4) . '/vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
 use Ratchet\Session\Storage\Proxy\VirtualProxy;

@@ -1,7 +1,7 @@
 <?php
 namespace Ratchet;
 
-include_once '../../vendor/autoload.php';
+include_once dirname(__DIR__, 2) . '/vendor/autoload.php';
 
 /**
  * Wraps ConnectionInterface objects via the decorator pattern but allows

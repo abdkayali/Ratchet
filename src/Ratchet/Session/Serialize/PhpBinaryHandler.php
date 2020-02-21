@@ -1,7 +1,7 @@
 <?php
 namespace Ratchet\Session\Serialize;
 
-include_once '../../../../vendor/autoload.php';
+include_once dirname(__DIR__, 4) . '/vendor/autoload.php';
 
 class PhpBinaryHandler implements HandlerInterface {
     /**

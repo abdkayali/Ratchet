@@ -1,7 +1,7 @@
 <?php
 namespace Ratchet\Session;
 
-include_once '../../../vendor/autoload.php';
+include_once dirname(__DIR__, 3) . '/vendor/autoload.php';
 
 use Ratchet\ConnectionInterface;
 use Ratchet\Http\HttpServerInterface;
