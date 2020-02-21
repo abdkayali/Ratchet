@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Wamp;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\ComponentInterface;
 use Ratchet\ConnectionInterface;
 

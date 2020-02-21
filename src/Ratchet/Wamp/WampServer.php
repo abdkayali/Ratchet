@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Wamp;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\MessageComponentInterface;
 use Ratchet\WebSocket\WsServerInterface;
 use Ratchet\ConnectionInterface;

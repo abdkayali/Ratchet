@@ -1,6 +1,8 @@
 <?php
 namespace Ratchet\Wamp;
 
+include_once '../../../vendor/autoload.php';
+
 class JsonException extends Exception {
     public function __construct() {
         $code = json_last_error();

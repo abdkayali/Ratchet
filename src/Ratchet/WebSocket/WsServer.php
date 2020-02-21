@@ -1,5 +1,9 @@
 <?php
 namespace Ratchet\WebSocket;
+
+include_once '../../../vendor/autoload.php';
+
+
 use Ratchet\ComponentInterface;
 use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface as DataComponentInterface;

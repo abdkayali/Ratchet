@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Http;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 use Psr\Http\Message\RequestInterface;

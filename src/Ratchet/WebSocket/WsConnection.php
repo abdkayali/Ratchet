@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\WebSocket;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\AbstractConnectionDecorator;
 use Ratchet\RFC6455\Messaging\DataInterface;
 use Ratchet\RFC6455\Messaging\Frame;

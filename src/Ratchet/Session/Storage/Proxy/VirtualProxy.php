@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Session\Storage\Proxy;
+
+include_once '../../../../../vendor/autoload.php';
+
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
 
 class VirtualProxy extends SessionHandlerProxy {

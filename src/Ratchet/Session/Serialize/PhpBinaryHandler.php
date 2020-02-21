@@ -1,6 +1,8 @@
 <?php
 namespace Ratchet\Session\Serialize;
 
+include_once '../../../../vendor/autoload.php';
+
 class PhpBinaryHandler implements HandlerInterface {
     /**
      * {@inheritdoc}

@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Session\Storage;
+
+include_once '../../../../vendor/autoload.php';
+
 use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
 use Ratchet\Session\Storage\Proxy\VirtualProxy;
 use Ratchet\Session\Serialize\HandlerInterface;

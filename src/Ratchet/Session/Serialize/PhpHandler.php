@@ -1,6 +1,8 @@
 <?php
 namespace Ratchet\Session\Serialize;
 
+include_once '../../../../vendor/autoload.php';
+
 class PhpHandler implements HandlerInterface {
     /**
      * Simply reverse behaviour of unserialize method.

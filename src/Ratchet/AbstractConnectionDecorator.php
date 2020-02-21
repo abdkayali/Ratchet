@@ -1,6 +1,8 @@
 <?php
 namespace Ratchet;
 
+include_once '../../vendor/autoload.php';
+
 /**
  * Wraps ConnectionInterface objects via the decorator pattern but allows
  * parameters to bubble through with magic methods

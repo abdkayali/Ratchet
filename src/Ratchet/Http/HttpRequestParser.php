@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Http;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\MessageInterface;
 use Ratchet\ConnectionInterface;
 use GuzzleHttp\Psr7 as gPsr;

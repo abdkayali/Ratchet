@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Server;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 

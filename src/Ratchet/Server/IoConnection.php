@@ -1,5 +1,8 @@
 <?php
 namespace Ratchet\Server;
+
+include_once '../../../vendor/autoload.php';
+
 use Ratchet\ConnectionInterface;
 use React\Socket\ConnectionInterface as ReactConn;
 
